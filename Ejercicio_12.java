@@ -1,6 +1,13 @@
+import java.util.Scanner;
 public class Ejercicio_12 {
     public static void main(String[] args) {
-        float salario_bruto = 5000*48;
+        int pago_hora;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Ingrese el pago por hor del trabajador");
+        pago_hora = sc.nextInt();
+        sc.close();
+
+        float salario_bruto = pago_hora*48;
         double retencion = salario_bruto*0.125;
         double salario_neto = salario_bruto - retencion;
 
