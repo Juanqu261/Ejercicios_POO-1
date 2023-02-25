@@ -3,7 +3,7 @@ public class Ejercicio_12 {
     public static void main(String[] args) {
         int pago_hora;
         Scanner sc = new Scanner(System.in);
-        System.out.println("Ingrese el pago por hor del trabajador");
+        System.out.println("Ingrese el pago por hor del trabajador. ");
         pago_hora = sc.nextInt();
         sc.close();
 
