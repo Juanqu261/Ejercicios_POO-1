@@ -2,7 +2,11 @@
 using namespace std;
 
 int main() {
-    float salario_b = 48*5000;
+    int pago_hora;
+    cout << "Ingrese el pago por horas del trabajador: ";
+    cin >> pago_hora;
+
+    float salario_b = 48*pago_hora;
     double retencion = salario_b*0.125;
     float salario_n= salario_b - retencion;
 
