@@ -4,9 +4,15 @@ using namespace std;
 
 int main() {
     double suma = 0;
-    double x = 20;
+    double x;
+    cout << "Ingrese el primer numero a operar: ";
+    cin >> x;
+
     suma = suma + x;
-    double y = 40;
+    double y;
+    cout << "Ingrese el segundo numero a operar: ";
+    cin >> y;
+
     x = x + pow(y, 2);
     suma = suma + x/y;
 
